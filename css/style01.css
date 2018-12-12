@@ -28,10 +28,10 @@ body {
 
  h1{
 	background-color: skyblue;
-	width: 100%;
+	width: 80%;
 	display: inline-block;
 	text-align: center;
-	font-size: 4em;
+	font-size: 6em;
 }
 .header ul{
 	left: 100px;
