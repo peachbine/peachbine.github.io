@@ -3,15 +3,29 @@
 }
 
 body {
-  background-color: #f1f1f1;
+  background-image: url("https://i.imgur.com/Yphb410.jpg");
   padding: 20px;
   font-family: Arial;
 }
+
 
 /* Center website */
 .main {
   max-width: 1000px;
   margin: auto;
+}
+
+.main ul{
+  left: 100px;
+  top:100px;
+  z-index: 1;
+}
+.main li{
+  display: inline-block;
+}
+
+li:nth-child(2) {
+    margin-left: 0em;
 }
 
 h1 {
