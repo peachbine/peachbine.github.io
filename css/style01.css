@@ -14,8 +14,8 @@ body {
 	}
 
 .container{
-	width: 90%;
-	height: 100%;
+	width: 80%;
+	height: 90%;
 	margin: auto;
 }
 
@@ -27,7 +27,6 @@ body {
 }
 
  h1{
-	background-color: skyblue;
 	width: 80%;
 	display: inline-block;
 	text-align: center;
