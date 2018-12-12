@@ -1,23 +1,24 @@
+var angle = 0;
 
 function setup() {
-  createCanvas(500, 500, WEBGL);
+  createCanvas(710, 400);
+  background(102);
+  noStroke();
+  fill(0, 102);
 }
-var value = 0;
+
 function draw() {
-	
-  background(200);
-  rotateX(frameCount * 0.15);
-  rotateY(frameCount * 0.11);
-  torus(150);
-	
-	 fill(value);
-  torus(150, 25, 50, 50);
-}
-function mousePressed() {
-  if (value === random(255)) {
-    value = 255;
-  } else {
-    value = random(255);
+  // Draw only when mouse is pressed
+  if (mouseIsPressed === true) {
+    angle += 5;
+    var val = cos(radians(angle)) * 12.0;
+    for (var a = 0; a < 360; a += 75) {
+      var xoff = cos(radians(a)) * val;
+      var yoff = sin(radians(a)) * val;
+      fill(random(175));
+      ellipse(mouseX + xoff, mouseY + yoff, val, val);
+    }
+    fill(255);
+    ellipse(mouseX, mouseY, 2, 2);
   }
-	
 }
