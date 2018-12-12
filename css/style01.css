@@ -9,7 +9,8 @@
 body {
 	width: 100%;
 	height: 100%;
-	background-color: #f1f1f1
+	background-image: url("https://i.pinimg.com/originals/99/29/33/99293381a7b0a469bf2d0825ca41049e.jpg"); 
+/*background-repeat: no-repeat;*/
 	}
 
 .container{
@@ -20,7 +21,7 @@ body {
 
 
 .header iframe{
-	width:100%;
+	width: 100%;
 	height: 100%;
 
 }
@@ -38,7 +39,6 @@ body {
 	z-index: 1;
 }
 .header li{
-	background-color: lightblue;
 	display: inline-block;
 }
 
@@ -52,7 +52,6 @@ li:nth-child(2) {
 
 } 
  h2{
-	background-color: skyblue;
 	width: 100%;
 	text-align: center;
 }
